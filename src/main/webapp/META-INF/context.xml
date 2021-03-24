@@ -1,0 +1,9 @@
+<Context path="/app">
+    <Resource name="jdbc/world"
+              factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+              type="javax.sql.DataSource"
+              username="root"
+              password="1234"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/world"/>
+</Context>
